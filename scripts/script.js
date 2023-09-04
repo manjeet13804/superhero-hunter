@@ -11,7 +11,7 @@ async function searchHeros(heroname) {
 
 // If input is non empty
     if(heroname.length > 0) {
-        let url="https://gateway.marvel.com/v1/public/characters?nameStartsWith="+heroname+"&limit=8&ts=1&apikey=479af95fea303989d02e4a22757147e7&hash=b837dd71ea30a412d884f205f4da646f";
+        let url="https://gateway.marvel.com/v1/public/characters?nameStartsWith="+heroname+"&limit=8&ts=1&apikey=4edf0a94b7fe71e94743ebdc6ded17e8&hash=fbc025e6cf20607cfdf4ffbea79d5627";
 
         await fetch(url).then(function (response) {
                         return response.json()
